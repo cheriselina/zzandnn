@@ -8,7 +8,10 @@ html {
 
 body {
   margin: 0;
-  background: #AB4D4D;
+  background-image: url("7E0153A4-32EA-4B1E-A5C5-C7E9B6A9492E.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
   color: #1e1e1e;
   font-family: Inter, system-ui, sans-serif;
 }
