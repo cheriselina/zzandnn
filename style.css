@@ -86,7 +86,10 @@ h1 {
   gap: 38px 22px;
   padding: 40px 0 100px;
 }
-
+figcaption {
+  text-align: center;
+  width: 100%;
+}
 .card {
   margin: 0;
 }
