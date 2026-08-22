@@ -135,3 +135,9 @@ footer {
     min-height: 80vh;
   }
 }
+.card img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 3px;
+}
