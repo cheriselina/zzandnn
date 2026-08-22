@@ -6,15 +6,31 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+html, body {
   margin: 0;
-  background-image: url("7E0153A4-32EA-4B1E-A5C5-C7E9B6A9492E.png");
-background-size: contain;
-background-position: top center;
-background-repeat: no-repeat;
-  background-attachment: fixed;
+  min-height: 100%;
+}
+
+body {
   color: #1e1e1e;
   font-family: Inter, system-ui, sans-serif;
+  background: transparent;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("7E0153A4-32EA-4B1E-A5C5-C7E9B6A9492E.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  z-index: -1;
 }
 
 .hero {
