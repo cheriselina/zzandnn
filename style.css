@@ -141,3 +141,16 @@ footer {
   object-fit: cover;
   border-radius: 3px;
 }
+.headline-frame {
+  width: min(720px, 94vw);
+  margin: 20px auto 60px;
+  padding: 14px;
+
+  border-top: 3px dashed #8a55f7;
+  border-left: 3px dashed #8a55f7;
+  border-right: 3px dashed #ef4444;
+  border-bottom: 3px dashed #34d399;
+
+  border-radius: 6px;
+  box-shadow: 5px 5px 0 #0f0f11;
+}
