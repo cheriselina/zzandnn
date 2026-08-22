@@ -11,7 +11,8 @@ body {
   background-image: url("7E0153A4-32EA-4B1E-A5C5-C7E9B6A9492E.png");
 background-size: contain;
 background-position: top center;
-background-repeat: repeat;
+background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #1e1e1e;
   font-family: Inter, system-ui, sans-serif;
 }
