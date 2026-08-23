@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html, body {
@@ -15,6 +16,7 @@ body {
   color: #1e1e1e;
   font-family: Inter, system-ui, sans-serif;
   background: transparent;
+  overflow-x: hidden;
 }
 
 body::before {
